@@ -1,0 +1,2 @@
+# Quality_Assurance_in_poduction_process
+The goal of my final project was to enable continuous learning of a quality measurement system through a holistic process and thus to automatically improve the precision of the measurement system. The solution is based on a Raspberry Pi and a camera to which I deployed a deep learning functionality that allows the object classification to be predicted directly on the edge device.
