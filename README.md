@@ -26,7 +26,9 @@ With the re-labeled images, the underlying model (in my case a neural net) can b
 
 For my final project I set up a Microsoft Azure account that included 200$ for their services. The architecture is displayed in the following picture: 
 <p align="center">
-  ![image](https://user-images.githubusercontent.com/48921737/61646886-65931080-acac-11e9-8e55-5637252b1c9d.png)
+  
+![image](https://user-images.githubusercontent.com/48921737/61646886-65931080-acac-11e9-8e55-5637252b1c9d.png)
+
 </p>
 
 (in accordance with on an existing Microsoft project: https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi)
