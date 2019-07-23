@@ -16,7 +16,7 @@ For production companies, the quality of their products is decisive for their bu
 **1. Concept**
 
 The concept of my solution that I developed will be explained in this section and can be illustrated as following:
-![image](https://user-images.githubusercontent.com/48921737/61647137-fbc73680-acac-11e9-91c0-01f9a2fe8d70.png)
+![image](https://user-images.githubusercontent.com/48921737/61704331-c3bf0280-ad43-11e9-98a9-7a37cfdc429e.png)
 
 The idea is to collect those products with defects that have been detected by the camera. As part of the quality control, the employee responsible for the inspection labels the products again according to their condition. A trade-off in production quality control is that the quality sensory should never classify products as correct that actually have a quality problem (false negative classifications). By establishing these high quality standards, the accuracy of the underlying classification model is low as more potential defects are identified that are actually not. 
 
@@ -50,11 +50,11 @@ Azure Cloud
 
 **3. Image Classification with Custom Vision**
 
-Microsoft Azure offers a cognitive service called "Custom Vision" for rapid prototyping, e.g. when real-time image recognition shall be applied to edge devices with low computing power. For the training I took 3 different objects with 50 images per label. A short test can be performed before the modules will be deployed to the Edge device (see following graphic):
+Microsoft Azure offers a cognitive service called "Custom Vision" for rapid prototyping, e.g. when real-time image recognition shall be applied to edge devices with low computing power. For the training I took 3 different objects with 50 images per label. A short test can be performed before the modules will be deployed to the Edge device (right part of the graphic):
 * Waffel with strawberries and cream
 * Small cake
 * Cupcakes
-![image](https://user-images.githubusercontent.com/48921737/61669727-62fede00-ace1-11e9-8cbf-f82930093175.png)
+![image](https://user-images.githubusercontent.com/48921737/61704343-cae61080-ad43-11e9-86ad-e00611f7de64.png)
 
 At this point you need to take into account that the service Custom Vision is not optimal for detecting subtle differences and was therefore only used to provide the proof of concept!
 
